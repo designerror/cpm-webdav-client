@@ -10,7 +10,7 @@ CPM_AddModule("cpm-webdavclient"
   GIT_REPOSITORY "https://github.com/designerror/cpm-webdavclient")
 ```
 
-Add this to your C++ code to use Catch:
+Add this to your C++ code to use Webdavclient:
 ```c++
 #include <client.hpp>
 ```
