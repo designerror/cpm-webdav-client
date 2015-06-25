@@ -1,6 +1,6 @@
 # cpm-webdavclient
 [CPM](http://cpm.rocks) external for
-[Webdavclient](https://github.com/designerror/webdavclient-cpp) testing library.
+[Webdavclient](https://github.com/designerror/webdavclient-cpp) library.
 
 ## Usage
 
