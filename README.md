@@ -1,4 +1,4 @@
-# cpm-webdavclient
+# cpm-webdav-client
 [CPM](http://cpm.rocks) external for
 [Webdavclient](https://github.com/designerror/webdavclient-cpp) library.
 
