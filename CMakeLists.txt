@@ -44,4 +44,4 @@ CPM_EnsureRepoIsCurrent(
   )                  
 
 add_subdirectory(${${CPM_MODULE_NAME}_DIR})
-CPM_ExportAdditionalIncludeDir("${${CPM_MODULE_NAME}_DIR}/webdavclient/include/")
+CPM_ExportAdditionalIncludeDir("${${CPM_MODULE_NAME}_DIR}/include/")
