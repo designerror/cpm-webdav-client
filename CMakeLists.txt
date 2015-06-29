@@ -41,7 +41,6 @@ CPM_EnsureRepoIsCurrent(
   TARGET_DIR ${${CPM_MODULE_NAME}_DIR}
   GIT_REPOSITORY "https://github.com/designerror/webdav-client-cpp"
   GIT_TAG origin/master
-  USE_CACHING TRUE
   )                  
 
 add_subdirectory(${${CPM_MODULE_NAME}_DIR})
