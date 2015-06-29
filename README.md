@@ -6,7 +6,7 @@
 
 Add this line to your `CMakeLists.txt` file:
 ```
-CPM_AddModule("cpm-webdavclient"
+CPM_AddModule("Webdavclient"
   GIT_REPOSITORY "https://github.com/designerror/cpm-webdav-client")
 ```
 
