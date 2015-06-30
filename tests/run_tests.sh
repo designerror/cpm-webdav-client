@@ -1,11 +1,16 @@
+#!/bin/bash
 cd "$(dirname "$0")"
 
-if [ ! -d ./build ]; then
-  mkdir -p ./build
+if [ ! -d ./bin ]; then
+  mkdir -p ./bin
 fi
 
-cd build
-cmake -B. -H..
-make
+# Ensure we fail immediately if any command fails.
+set -e
 
-.Tests_CPM_WebDAV_Client
+pushd ./bin > /dev/null
+  cmake ..
+  make
+popd
+
+ls bin
