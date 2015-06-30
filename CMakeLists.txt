@@ -40,7 +40,7 @@ set(${CPM_MODULE_NAME}_DIR ${CMAKE_CURRENT_SOURCE_DIR}/webdavclient)
 CPM_EnsureRepoIsCurrent(
   TARGET_DIR ${${CPM_MODULE_NAME}_DIR}
   GIT_REPOSITORY "https://github.com/designerror/webdav-client-cpp"
-  GIT_TAG origin/master
+  GIT_TAG "v1.0"
   )                  
 
 CPM_ExportAdditionalIncludeDir("${${CPM_MODULE_NAME}_DIR}/include/")
