@@ -13,4 +13,4 @@ pushd ./bin > /dev/null
   make
 popd
 
-ls bin
+./bin/Tests
