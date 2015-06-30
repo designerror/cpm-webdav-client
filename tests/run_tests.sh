@@ -5,7 +5,7 @@ if [ ! -d ./build ]; then
 fi
 
 pushd ./build > /dev/null
-  cmake -B. -H.
+  cmake -B. -H..
   make
 popd
 
