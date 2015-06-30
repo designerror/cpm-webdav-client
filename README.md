@@ -1,8 +1,5 @@
 # cpm-webdav-client
 
-[![Build
-Status](https://travis-ci.org/designerror/cpm-webdav-client.png)](https://travis-ci.org/designerror/cpm-webdav-client)
-
 [CPM](http://cpm.rocks) external for
 [WebDAV Client](https://github.com/designerror/webdav-client-cpp) library.
 
