@@ -13,6 +13,5 @@ CPM_AddModule("webdav-client"
 
 Add this to your C++ code to use Webdavclient:
 ```c++
-#include <client.hpp>
+#include <webdav/client.hpp>
 ```
-
