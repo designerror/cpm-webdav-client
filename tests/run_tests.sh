@@ -4,7 +4,8 @@ if [ ! -d ./build ]; then
   mkdir -p ./build
 fi
 
+cd build
 cmake -B. -H..
 make
 
-./build/Tests_CPM_WebDAV_Client
+.Tests_CPM_WebDAV_Client
