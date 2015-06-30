@@ -43,5 +43,7 @@ CPM_EnsureRepoIsCurrent(
   GIT_TAG origin/master
   )                  
 
-add_subdirectory(${${CPM_MODULE_NAME}_DIR})
 CPM_ExportAdditionalIncludeDir("${${CPM_MODULE_NAME}_DIR}/include/")
+include_directories(${CPM_ADDITIONAL_INCLUDE_DIRS})
+
+add_subdirectory(${${CPM_MODULE_NAME}_DIR})
