@@ -7,10 +7,7 @@ int main()
             {
                     {"webdav_hostname", "https://webdav.yandex.ru"},
                     {"webdav_login", "webdav.test.login"},
-                    {"webdav_password", "webdav.test.password"},
-                    {"proxy_hostname", "https://10.0.0.188:8080"},
-                    {"proxy_login", "gvc05svc"},
-                    {"proxy_password", "Wad9jnr3"}
+                    {"webdav_password", "webdav.test.password"}
             };
 
     WebDAV::Client client(options);
