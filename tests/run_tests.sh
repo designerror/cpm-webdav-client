@@ -4,9 +4,7 @@ if [ ! -d ./build ]; then
   mkdir -p ./build
 fi
 
-pushd ./build > /dev/null
-  cmake -B. -H..
-  make
-popd
+cmake -B. -H..
+make
 
 ./build/Tests_CPM_WebDAV_Client
