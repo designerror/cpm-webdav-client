@@ -4,7 +4,7 @@ project(Tests)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 include(cmake/FindCPM.cmake)
-CPM_AddModule("Webdavclient"
+CPM_AddModule("webdav-client"
   GIT_REPOSITORY "https://github.com/designerror/cpm-webdav-client")
 CPM_Finish()
 
